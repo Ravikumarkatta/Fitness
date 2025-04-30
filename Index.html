@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitTrack - Fitness Tracking App to Improve Your Health</title>
+    <meta name="description" content="Track your workouts, set fitness goals, and stay motivated with FitTrack. Available on Google Play and the App Store.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Slick Carousel for testimonials -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>FitTrack</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#download" class="cta-button">Download</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero" id="home">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Transform Your Fitness Journey with FitTrack</h1>
+                <p>Track your workouts, set goals, and stay motivated every step of the way.</p>
+                <a href="#features" class="cta-button">Get Started</a>
+                <a href="#download" class="secondary-button">Download Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Why Choose FitTrack?</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Workout Tracking</h3>
+                    <p>Track your workouts with ease. Log exercises, sets, reps, and weights to monitor your progress.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3>Nutrition Management</h3>
+                    <p>Log your meals and monitor your daily intake. Track calories, macros, and stay on top of your nutrition goals.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Progress Analytics</h3>
+                    <p>View visual reports of your fitness journey. See your improvements over time with detailed charts and graphs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">What Our Users Say</h2>
+            <div class="testimonial-carousel" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"FitTrack helped me lose 10 pounds in 2 months! The tracking features are amazing!"</p>
+                        <div class="user-info">
+                            <div class="user-avatar">
+                                <img src="/api/placeholder/80/80" alt="User avatar">
+                            </div>
+                            <div class="user-name">
+                                <h4>Sarah Johnson</h4>
+                                <span>FitTrack User</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"I love how easy it is to log my meals and track my progress. It's like having a personal coach."</p>
+                        <div class="user-info">
+                            <div class="user-avatar">
+                                <img src="/api/placeholder/80/80" alt="User avatar">
+                            </div>
+                            <div class="user-name">
+                                <h4>Michael Thompson</h4>
+                                <span>FitTrack User</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"The analytics feature has completely changed how I approach my workouts. I can see my progress clearly!"</p>
+                        <div class="user-info">
+                            <div class="user-avatar">
+                                <img src="/api/placeholder/80/80" alt="User avatar">
+                            </div>
+                            <div class="user-name">
+                                <h4>Jessica Williams</h4>
+                                <span>FitTrack User</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Choose Your Plan</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Free Plan</h3>
+                    <div class="price">$0<span>/month</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Basic workout tracking</li>
+                        <li><i class="fas fa-check"></i> Daily fitness goals</li>
+                        <li><i class="fas fa-check"></i> Step counter</li>
+                        <li><i class="fas fa-times"></i> Advanced analytics</li>
+                        <li><i class="fas fa-times"></i> Meal planning</li>
+                    </ul>
+                    <a href="#download" class="cta-button">Download Now</a>
+                </div>
+                
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="popular-tag">Most Popular</div>
+                    <h3>Pro Plan</h3>
+                    <div class="price">$5<span>/month</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Advanced workout tracking</li>
+                        <li><i class="fas fa-check"></i> Customizable fitness goals</li>
+                        <li><i class="fas fa-check"></i> Step counter</li>
+                        <li><i class="fas fa-check"></i> Detailed analytics</li>
+                        <li><i class="fas fa-check"></i> Meal planning & nutrition</li>
+                    </ul>
+                    <a href="#download" class="cta-button">Get Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download/CTA Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="download-content" data-aos="fade-up">
+                <h2>Ready to Start Your Fitness Journey?</h2>
+                <p>Download FitTrack now and take the first step towards a healthier lifestyle.</p>
+                <div class="app-buttons">
+                    <a href="#" class="app-button">
+                        <i class="fab fa-google-play"></i>
+                        <div class="app-button-text">
+                            <span>Get it on</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                    <a href="#" class="app-button">
+                        <i class="fab fa-apple"></i>
+                        <div class="app-button-text">
+                            <span>Download on</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <h2>FitTrack</h2>
+                    <p>Your Personal Fitness Companion</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 FitTrack. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
